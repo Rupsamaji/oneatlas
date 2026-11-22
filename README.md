@@ -2,6 +2,18 @@
 
 A full-stack MVP for discovering, comparing and evaluating AI models across providers.
 
+## Live Demo
+
+- **Live site (Vercel):** https://oneatlas-xi.vercel.app/
+- **Backend API (Render):** https://oneatlas-api-w60r.onrender.com/api/health
+- **GitHub repository:** https://github.com/Rupsamaji/oneatlas
+
+**Notes for reviewers**
+- The backend runs on Render's free plan and sleeps when idle, so the first load can take up to a minute. Please wait and refresh once.
+- Prices and benchmark scores are illustrative demo data, not verified live information.
+
+---
+
 ## Features
 - Search, filter and sort models by company, provider, capability and model type
 - Model detail views with context, modalities, pricing and provider availability
@@ -16,6 +28,7 @@ A full-stack MVP for discovering, comparing and evaluating AI models across prov
 - Backend: Node.js + Express
 - Database: MongoDB + Mongoose
 - API: REST
+- Hosting: Vercel (frontend), Render (backend), MongoDB Atlas (database)
 
 ## Requirements
 - Node.js 20+
