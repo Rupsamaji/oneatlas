@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import "./globals.css";export const metadata:Metadata={title:"OneAtlas — AI Model Explorer",description:"Discover, compare and explore AI models, providers and labs."};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
