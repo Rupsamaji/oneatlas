@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server";import {db} from "@/lib/prisma";export async function GET(){try{return NextResponse.json(await db.lab.findMany())}catch{return NextResponse.json({error:"Database unavailable"},{status:503})}}
